@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+*.zip
+# the big public datasets are NOT stored in git (see DEPLOY.md / README.md)
+data/raw/ssh/
+data/raw/apache/
+data/raw/firewall/

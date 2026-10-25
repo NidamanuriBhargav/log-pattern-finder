@@ -1,0 +1,10 @@
+[server]
+maxUploadSize = 1024         # megabytes = 1 GB (the biggest file a user can upload)
+headless = true
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#2a78d6"

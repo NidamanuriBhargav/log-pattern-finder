@@ -1,0 +1,4 @@
+Put the three public datasets here (unpacked):
+  data/raw/ssh/SSH.log            from Loghub SSH.tar.gz        https://zenodo.org/record/3227177
+  data/raw/apache/Apache.log      from Loghub Apache.tar.gz     https://zenodo.org/record/3227177
+  data/raw/firewall/log2.csv      from UCI Internet Firewall Data  https://archive.ics.uci.edu/dataset/542/internet+firewall+data

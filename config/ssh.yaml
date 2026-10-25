@@ -1,0 +1,7 @@
+# SSH authentication log (Loghub "SSH" dataset)
+name: ssh
+description: SSH login log - one behaviour unit = one login session
+path: data/raw/ssh/SSH.log
+parser: ssh_syslog
+unit: session          # group all lines of one sshd session together
+start_year: 2015       # syslog lines have no year, so we state it here

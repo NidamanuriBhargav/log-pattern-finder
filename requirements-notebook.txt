@@ -1,0 +1,2 @@
+# Only for opening notebooks/walkthrough.ipynb   (pip install -r requirements.txt -r requirements-notebook.txt)
+jupyter

@@ -1,0 +1,10 @@
+# Firewall connection log (UCI "Internet Firewall Data")
+name: firewall
+description: Firewall log - one behaviour unit = one connection (one CSV row)
+path: data/raw/firewall/log2.csv
+parser: firewall_csv
+unit: row              # every row is already one connection
+# The firewall's own allow/deny decision is NOT given to the model.
+# We hide it during clustering and use it afterwards to check the result.
+exclude_features: [fail_ratio]
+validate_with: action

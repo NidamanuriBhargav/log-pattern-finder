@@ -1,0 +1,6 @@
+# Apache web-server ERROR log (Loghub "Apache" dataset)
+name: apache
+description: Apache error log - one behaviour unit = one client IP
+path: data/raw/apache/Apache.log
+parser: apache_error
+unit: client           # group all lines coming from the same client IP
